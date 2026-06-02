@@ -1,5 +1,3 @@
-public interface LoyaltyDiscountPolicy {
-}
 public class LoyaltyDiscountPolicy implements DiscountPolicy {
     @Override
     public double applyDiscount(Student student, double price) {
